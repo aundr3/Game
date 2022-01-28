@@ -284,8 +284,8 @@ function check_level_four_answer() {
     } else if (levelFour_array.length === 3) {
         console.log(levelFour_array.length)
         let correct = true;
-        for (let i = 0; i < levelThree_answer.length; i++) {
-            if (levelThree_answer[i] === levelThree_array[i]) {
+        for (let i = 0; i < levelFour_answer.length; i++) {
+            if (levelFour_answer[i] === levelFour_array[i]) {
                 console.log("correct")
             } else {
                 correct = false;
