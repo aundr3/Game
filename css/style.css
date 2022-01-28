@@ -65,7 +65,7 @@ body {
 
 .continue {
     margin-top: 235px;
-    animation: blink 1s steps(1, end) infinite;
+    animation: blink 1s infinite;
     color: red;
     display: flex;
     flex-direction: column;
